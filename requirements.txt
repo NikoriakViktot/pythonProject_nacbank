@@ -1,0 +1,7 @@
+django~=3.2.7
+python-dotenv~=0.19.0
+requests~=2.26.0
+pyTelegramBotAPI
+bs4~=0.0.1
+selenium~=3.141.0
+beautifulsoup4~=4.10.0
