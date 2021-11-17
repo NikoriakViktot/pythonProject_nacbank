@@ -93,29 +93,8 @@ galochka = driver.find_element_by_id("terms")
 # galochka.find_elements_by_class_name("woocommerce-form__label woocommerce-form__label-for-checkbox checkbox")
 galochka.submit()
 
-portmone = driver.find_element_by_css_selector('.pg-payment-method__str-card')
-namber_car = portmone.find_element_by_class_name('pg-group-input pg-payment-method__str-card__number')
-namber_car.send_keys('5685 8564 5666 5555')
-time.sleep(1)
-rik_cart = portmone.find_element_by_class_name('pg-group-input pg-payment-method__str-card__exp')
-rik_cart.send_keys('1212')
-time.sleep(1)
-id_cart = portmone.find_element_by_class_name("pg-group-input pg-payment-method__str-card__cvv")
-id_cart.send_keys('123')
-time.sleep(1)
-email_cart = portmone.find_element_by_class_name("pg-group-input")
-email_cart.send_keys('nikoriakviktor@gmail.com')
-time.sleep(1)
-oplata = portmone.find_element_by_class_name('pg-group-btn').click()
-# kyputu_button.submit()
-# from bs4 import BeautifulSoup
-# soup_monet = BeautifulSoup(cooins, 'html.parser')
-# # url_monet = soup_monet.find_all('a href')
-# print(soup_monet)
 
 
 
-
-# vubir_posta = driver.find_element_by_xpath(_class="table_form")
 
 
